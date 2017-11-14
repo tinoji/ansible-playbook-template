@@ -1,0 +1,5 @@
+- hosts: server
+  vars_foles:
+    - vars/servers.yml
+  roles:
+    - ansible-role-hoge
